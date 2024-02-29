@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@layer base {
+  :root {
+    --WHITE: hsl(0, 0%, 100%);
+    --GREY: hsl(0, 0%, 20%);
+    --DARK-GREY: hsl(0, 0%, 12%);
+    --OFF-BLACK: hsl(0, 0%, 8%);
+    --GREEN: hsl(75, 94%, 57%);
+  }
+
+  * {
+    font-family: 'Inter', sans-serif;
+  }
+}
